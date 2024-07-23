@@ -8,13 +8,13 @@ document.getElementById('order-button').addEventListener('click', function() {
 
     const sweetener = document.getElementById('sweetener').value;
 
-    // Cria um objeto Smoothie
+    // Cria um objeto Smoothie.
     const smoothie = new Smoothie(name, size, ingredients, sweetener);
 
     // Mostra a descrição na página.
     document.getElementById('order-summary').textContent = smoothie.getDescription();
 
-    // Reproduz o som ao fazer o pedido
+    // Reproduz o som ao fazer o pedido.
     const audio = new Audio('sounds/add.wav');
     audio.play();
 });
