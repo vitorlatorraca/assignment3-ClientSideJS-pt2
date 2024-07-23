@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order a Smoothie</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Order Your Smoothie</h1>
+        <form id="smoothie-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="size">Size:</label>
+            <select id="size" name="size" required>
+                <option value="small">Small</option>
+                <option value="medium">Medium</option>
+                <option value="large">Large</option>
+            </select>
+
+            <label for="ingredients">Choose your ingredients:</label>
+            <div id="ingredients">
+                <div class="ingredient">
+                    <input type="checkbox" id="banana" name="banana" value="Banana">
+                    <label for="banana">
+                        <img src="images/banana.png" alt="Banana">
+                        Banana
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <input type="checkbox" id="strawberry" name="strawberry" value="Strawberry">
+                    <label for="strawberry">
+                        <img src="images/strawberry.png" alt="Strawberry">
+                        Strawberry
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <input type="checkbox" id="blueberry" name="blueberry" value="Blueberry">
+                    <label for="blueberry">
+                        <img src="images/blueberry.png" alt="Blueberry">
+                        Blueberry
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <input type="checkbox" id="mango" name="mango" value="Mango">
+                    <label for="mango">
+                        <img src="images/mango.png" alt="Mango">
+                        Mango
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <input type="checkbox" id="spinach" name="spinach" value="Spinach">
+                    <label for="spinach">
+                        <img src="images/spinach.png" alt="Spinach">
+                        Spinach
+                    </label>
+                </div>
+                <div class="ingredient">
+                    <input type="checkbox" id="kale" name="kale" value="Kale">
+                    <label for="kale">
+                        <img src="images/kale.png" alt="Kale">
+                        Kale
+                    </label>
+                </div>
+            </div>
+
+            <label for="sweetener">Sweetener:</label>
+            <select id="sweetener" name="sweetener" required>
+                <option value="none">None</option>
+                <option value="honey">Honey</option>
+                <option value="sugar">Sugar</option>
+                <option value="agave">Agave</option>
+            </select>
+
+            <button type="button" id="order-button">Order</button>
+        </form>
+        <div id="order-summary"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
