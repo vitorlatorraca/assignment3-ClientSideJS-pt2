@@ -40,13 +40,13 @@ form {
 label {
     font-size: 1.2em;
     margin-bottom: 5px;
-    color: #D2691E;
+    color: #a35218;
 }
 
 input[type="text"], select {
     padding: 15px;
     font-size: 1em;
-    border: 2px solid #D2691E;
+    border: 2px solid #aa5619;
     border-radius: 8px;
     background-color: #F5F5DC;
     color: #4B0082;
