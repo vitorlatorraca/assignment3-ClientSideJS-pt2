@@ -3,8 +3,8 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #EFE5DC; /* Bege suave */
-    color: #4B3F2F; /* Marrom escuro */
+    background-color: #F0F0F0; /* Cinza claro suave */
+    color: #3E3E3E; /* Cinza escuro */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -15,19 +15,19 @@ body {
 }
 
 .container {
-    background-color: #D8C3A5; /* Bege mais forte */
+    background-color: #FFFFFF; /* Branco */
     padding: 40px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px; /* Bordas mais arredondadas */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra mais suave */
     width: 100%;
     max-width: 800px;
     text-align: center;
 }
 
 h1 {
-    color: #A0522D; /* Marrom terra */
+    color: #6D4C41; /* Marrom suave */
     margin-bottom: 30px;
-    font-size: 3em;
+    font-size: 2.5em;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -40,22 +40,22 @@ form {
 label {
     font-size: 1.2em;
     margin-bottom: 5px;
-    color: #8B4513; /* Marrom escuro */
+    color: #5D4037; /* Marrom escuro suave */
 }
 
 input[type="text"], select {
     padding: 15px;
     font-size: 1em;
-    border: 2px solid #8B5A2B; /* Marrom médio */
-    border-radius: 8px;
-    background-color: #EFE5DC; /* Bege suave */
-    color: #4B3F2F; /* Marrom escuro */
+    border: 1px solid #BDBDBD; /* Cinza claro */
+    border-radius: 10px; /* Bordas mais arredondadas */
+    background-color: #FAFAFA; /* Branco suave */
+    color: #3E3E3E; /* Cinza escuro */
     outline: none;
     transition: border-color 0.3s;
 }
 
 input[type="text"]:focus, select:focus {
-    border-color: #704214; /* Marrom mais escuro */
+    border-color: #8D6E63; /* Marrom suave */
 }
 
 #ingredients {
@@ -85,20 +85,20 @@ button {
     padding: 15px;
     font-size: 1.2em;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px; /* Bordas mais arredondadas */
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    background-color: #8B4513; /* Marrom escuro */
+    background-color: #795548; /* Marrom médio suave */
     color: #FFFFFF;
 }
 
 button:hover {
-    background-color: #704214; /* Marrom mais escuro */
+    background-color: #5D4037; /* Marrom escuro suave */
     transform: scale(1.05);
 }
 
 #order-summary {
     margin-top: 30px;
     font-size: 1.2em;
-    color: #704214; /* Marrom mais escuro */
+    color: #6D4C41; /* Marrom suave */
 }
