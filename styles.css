@@ -88,7 +88,7 @@ button {
     border-radius: 10px; /* Bordas mais arredondadas */
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    background-color: #795548; /* Marrom médio suave */
+    background-color: #765042; /* Marrom médio suave */
     color: #FFFFFF;
 }
 
