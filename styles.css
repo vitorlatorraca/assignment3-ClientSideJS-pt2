@@ -88,17 +88,17 @@ button {
     border-radius: 10px; 
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
-    background-color: #765042; /* Marrom médio suave */
+    background-color: #765042; 
     color: #FFFFFF;
 }
 
 button:hover {
-    background-color: #5D4037; /* Marrom escuro suave */
+    background-color: #5D4037; 
     transform: scale(1.05);
 }
 
 #order-summary {
     margin-top: 30px;
     font-size: 1.2em;
-    color: #6D4C41; /* Marrom suave */
+    color: #6D4C41; 
 }
